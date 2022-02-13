@@ -3,10 +3,12 @@
 ## First Segment
 
 ### Selected Topic
-
+" Credit Card approval prediction"
 
 ### Reason why we selected the topic
-
+The dataset we found is ideal to test the exact knowledge we acquired through the Bootcamp.
 ### Description of the source of the data
+We got our data from a Data Science community website named Kaggle. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
 
 ### Question we are going to answer with the data
+Does the user will be able to get approved a credit card based on certain data?
