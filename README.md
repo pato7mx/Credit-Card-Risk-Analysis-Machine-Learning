@@ -28,4 +28,4 @@ Manuel Ruiz
 
 ### Communication Protocols
 We will be working through slack, all communication must be in English.
-We will have zoom meetings.
+We will have zoom meetings. Meeting will be on Sundays, starting 9:30 am. On this meeting we will discuss what we have done before uploading our files.
