@@ -45,19 +45,32 @@ Unsuppervised - Clustering and the K-means Algorithm
 
 The features to take into account are: 
 
-OWN_CAR	
+OWN_CAR
+
 OWN_REALTY	
+
 AMT_INCOME_TOTAL	Annual income	
+
 NAME_INCOME_TYPE	Income category	
+
 NAME_FAMILY_STATUS	Marital status	
+
 NAME_HOUSING_TYPE	Way of living	
+
 DAYS_EMPLOYED	Start date of employment
+
 FLAG_MOBIL	Is there a mobile phone	
+
 FLAG_WORK_PHONE	Is there a work phone	
+
 FLAG_PHONE	Is there a phone	
+
 FLAG_EMAIL	Is there an email	
+
 OCCUPATION_TYPE	Occupation
+
 LOAN_MONTHS_BALANCE	Record of past month loans
 
 Our label will be:
+
 At leats 2 categories, "good" or "bad" candidate for the credit card. Using K=2 we can differenciate the applications into one of this two groups.
