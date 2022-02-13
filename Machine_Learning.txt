@@ -1,0 +1,13 @@
+The proposed Machine Learning model is: 
+Unsuppervised - Clustering
+
+The features to take into account are: 
+Own_Car
+Own_Realty
+Annual_Income
+Marital_Status
+Housing_Type
+Age
+Employment
+Family_Size
+3 Months_Credit_Record_Status
