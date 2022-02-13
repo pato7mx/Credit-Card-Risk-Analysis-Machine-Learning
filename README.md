@@ -27,4 +27,4 @@ Hector Reyes
 Manuel Ruiz
 
 ### Communication Protocols
-
+We will be working through slack, all communication must be in English
