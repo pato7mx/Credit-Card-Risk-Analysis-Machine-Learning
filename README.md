@@ -21,6 +21,7 @@ Does the user will be able to get a credit card approval based on data?
 Patricio Tamayo
 #### TRIANGLE
 Hector Ibarra
+
 Ernesto Mora
 #### CIRCLE
 Hector Reyes
