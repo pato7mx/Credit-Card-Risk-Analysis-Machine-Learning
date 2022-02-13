@@ -6,7 +6,8 @@
 " Credit Card approval prediction"
 
 ### Reason why we selected the topic
-The dataset we found is ideal to test the exact knowledge we acquired through the Bootcamp.
+The dataset we found is ideal to test the exact knowledge we acquired through the Bootcamp. Also using data to define if a client geta a credit card is a common practice in the financial industry today.
+
 ### Description of the source of the data
 We got our data from a Data Science community website named Kaggle. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
 
