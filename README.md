@@ -16,4 +16,12 @@ Does the user will be able to get a credit card approval based on data?
 
 ### Definition of roles week one
 
-#### 
+#### SQUARE
+Patricio Tamayo
+#### TRIANGLE
+Hector Ibarra
+#### CIRCLE
+Hector Reyes
+#### X
+Manuel Ruiz
+
