@@ -28,3 +28,14 @@ Hector Reyes
 #### X
 Manuel Ruiz
 ### Communication Protocols
+
+## Database 
+The entity relationship diagram of the dataset can be described as follows: 
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/21972342/153769706-a98d666f-3b62-407f-8685-d0c4a8df1d84.png"/>
+</p?
+
+- The Application table describes customer information.
+- The HistoricCredit table describes the credit status of a customer for each month since he/she requested the credit.
+
