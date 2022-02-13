@@ -9,7 +9,7 @@ AMT_INCOME_TOTAL	Annual income
 NAME_INCOME_TYPE	Income category	
 NAME_FAMILY_STATUS	Marital status	
 NAME_HOUSING_TYPE	Way of living	
-DAYS_EMPLOYED	Start date of employment	Count backwards from current day(0). If positive, it means the person currently unemployed.
+DAYS_EMPLOYED	Start date of employment
 FLAG_MOBIL	Is there a mobile phone	
 FLAG_WORK_PHONE	Is there a work phone	
 FLAG_PHONE	Is there a phone	
