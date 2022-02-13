@@ -13,3 +13,5 @@ We got our data from a Data Science community website named Kaggle. Kaggle allow
 
 ### Question we are going to answer with the data
 Does the user will be able to get approved a credit card based on certain data?
+
+##Communication protocols
