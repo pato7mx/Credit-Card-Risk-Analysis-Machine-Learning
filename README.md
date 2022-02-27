@@ -40,8 +40,12 @@ The entity relationship diagram of the dataset can be described as follows:
 - The HistoricCredit table describes the credit status of a customer for each month since he/she requested the credit.
 
 ## Machine Learning
+
+
 The proposed Machine Learning model is: 
 Unsuppervised - Clustering and the K-means Algorithm
+
+Code can be find in the machine learning folder
 
 The features to take into account are: 
 
@@ -73,4 +77,14 @@ LOAN_MONTHS_BALANCE	Record of past month loans
 
 Our label will be:
 
-At leats 2 categories, "good" or "bad" candidate for the credit card. Using K=2 we can differenciate the applications into one of this two groups.
+At leats 2 categories, "good" or "bad" candidate for the credit card. Using Kmeans we can differenciate the applications into one of this two groups. We will determine the natural means that the data set has to find a good relation.
+
+## Database
+
+A database with tables for use in the project was generated in AWS-RDS Server.
+
+Database info:
+- Name: dbproject
+- Endpoint and port (link): dbproject.cprghtxfxmsc.us-east-1.rds.amazonaws.com
+
+Password in ignored config.py
