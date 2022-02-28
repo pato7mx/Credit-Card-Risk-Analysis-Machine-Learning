@@ -49,31 +49,41 @@ Code can be find in the machine learning folder
 
 The features to take into account are: 
 
-OWN_CAR
+CODE_GENDER     Applicant's Gender (Male or Female)
 
-OWN_REALTY	
+OWN_CAR     Owns a car
 
-AMT_INCOME_TOTAL	Annual income	
+OWN_REALTY      Owns a property
 
-NAME_INCOME_TYPE	Income category	
+INCOME_TOTAL        Annual income	
 
-NAME_FAMILY_STATUS	Marital status	
+JOB     Applicant's job	
 
-NAME_HOUSING_TYPE	Way of living	
+NAME_FAMILY_STATUS      Marital status	
 
-DAYS_EMPLOYED	Start date of employment
+NAME_HOUSING_TYPE       Way of living	
 
-FLAG_MOBIL	Is there a mobile phone	
+DAYS_EMPLOYED       Start date of employment
 
-FLAG_WORK_PHONE	Is there a work phone	
+FLAG_MOBIL      Is there a mobile phone	
 
-FLAG_PHONE	Is there a phone	
+FLAG_WORK_PHONE     Is there a work phone	
 
-FLAG_EMAIL	Is there an email	
+FLAG_PHONE      Is there a phone	
 
-OCCUPATION_TYPE	Occupation
+FLAG_EMAIL      Is there an email	
 
-LOAN_MONTHS_BALANCE	Record of past month loans
+BEGIN_MONTHS        Record of past month loans
+
+STATUS      Credit status history:
+-   0: 1-29 days past due 
+-   1: 30-59 days past due 
+-   2: 60-89 days overdue 
+-   3: 90-119 days overdue 
+-   4: 120-149 days overdue 
+-   5: Overdue or bad debts, write-offs for more than 150 days 
+-   C: paid off that month 
+-   X: No loan for the month
 
 Our label will be:
 
@@ -116,6 +126,6 @@ We have a Whatsapp group to have a more direct communication, at any time, not o
 Excluding our time during class, we get into a Zoom call every Sunday to finish the last steps into our next delivery.  
 
 ## Dashboard
-We used..........  
-The link to the dashboard is.....  
-In the dashboard you will find....  
+The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysis/CreditCardApporval?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+The dashboard can be visualized better if using a desktop in fullscreen. 
