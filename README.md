@@ -88,3 +88,15 @@ Database info:
 - Endpoint and port (link): dbproject.cprghtxfxmsc.us-east-1.rds.amazonaws.com
 
 Password in ignored config.py
+
+## Tools  
+### Creating Database  
+- PostgreSQL  
+- Amazon Web Services (AWS)  
+### Analyzing Data  
+- Pandas  
+### Machine Learning  
+- Scikit-Learn  
+- Tensorflow  
+### Dashboard  
+- Tableau  
