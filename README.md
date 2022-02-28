@@ -100,3 +100,7 @@ Password in ignored config.py
 - Tensorflow  
 ### Dashboard  
 - Tableau  
+
+
+## Presentation
+The presentation that outlines the project in [Google slides](https://docs.google.com/presentation/d/1Z_A6kwwKbiF3FvnKe_KBhuP6LGJ8C_TPaqjhdFbzavE/edit?usp=sharing)
