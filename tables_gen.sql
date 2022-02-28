@@ -59,4 +59,5 @@ SELECT cca.id_no,
 	ON cca.id_no = car.id_no
 	AND cca.begin_months = car.begin_months;
 
+
 SELECT * FROM credit_join;
