@@ -57,6 +57,7 @@ SELECT cca.id_no,
 	FROM credit_card_applications as cca
 	LEFT JOIN credit_applications_results as car
 	ON cca.id_no = car.id_no
-	WHERE car.target = 1;
+	AND cca.begin_months = car.begin_months;
+
 
 SELECT * FROM credit_join;
