@@ -20,14 +20,12 @@ Does the user will be able to get a credit card approval based on data?
 #### SQUARE
 Patricio Tamayo
 #### TRIANGLE
-Hector Ibarra
-
 Ernesto Mora
 #### CIRCLE
 Hector Reyes
 #### X
 Manuel Ruiz
-### Communication Protocols
+
 
 ## Database 
 The entity relationship diagram of the dataset can be described as follows: 
