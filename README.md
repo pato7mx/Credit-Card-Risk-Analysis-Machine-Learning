@@ -41,51 +41,48 @@ The entity relationship diagram of the dataset can be described as follows:
 
 
 The proposed Machine Learning model is: 
-Unsuppervised - Clustering and the K-means Algorithm
+Suppervised - Neuronal Networks
 
 Code can be find in the machine learning folder
 
 The features to take into account are: 
 
-CODE_GENDER     Applicant's Gender (Male or Female)
+Feature Name	Description	Remarks
+	
+CODE_GENDER:	Gender
 
-OWN_CAR     Owns a car
+FLAG_OWN_CAR:	The applicant has a car or not
 
-OWN_REALTY      Owns a property
+FLAG_OWN_REALTY:	The applicant has a property
 
-INCOME_TOTAL        Annual income	
+CNT_CHILDREN:	Number of Children
 
-JOB     Applicant's job	
+AMT_INCOME_TOTAL:	Annual Income
 
-NAME_FAMILY_STATUS      Marital status	
+NAME_EDUCATION_TYPE:	Education Level
 
-NAME_HOUSING_TYPE       Way of living	
+NAME_FAMILY_STATUS:	Marital Status
 
-DAYS_EMPLOYED       Start date of employment
+NAME_HOUSING_TYPE:	Way of Living
 
-FLAG_MOBIL      Is there a mobile phone	
+DAYS_BIRTH:	Age in days
 
-FLAG_WORK_PHONE     Is there a work phone	
+DAYS_EMPLOYED:	Duration of work in days
 
-FLAG_PHONE      Is there a phone	
+FLAG_MOBIL:	Is there a mobile phone
 
-FLAG_EMAIL      Is there an email	
+FLAG_WORK_PHONE:	Is there a work phone
 
-BEGIN_MONTHS        Record of past month loans
+FLAG_PHONE:	Is there a phone
 
-STATUS      Credit status history:
--   0: 1-29 days past due 
--   1: 30-59 days past due 
--   2: 60-89 days overdue 
--   3: 90-119 days overdue 
--   4: 120-149 days overdue 
--   5: Overdue or bad debts, write-offs for more than 150 days 
--   C: paid off that month 
--   X: No loan for the month
+FLAG_EMAIL:	Is there an email
 
-Our label will be:
+JOB:	Job
 
-At leats 2 categories, "good" or "bad" candidate for the credit card. Using Kmeans we can differenciate the applications into one of this two groups. We will determine the natural means that the data set has to find a good relation.
+BEGIN_MONTHS: Record month	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on
+STATUS	Status	0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month
+
+TARGET:	Target	Risk user are marked as '1', else are '0'
 
 ## Database
 
