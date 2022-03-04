@@ -20,20 +20,18 @@ Does the user will be able to get a credit card approval based on data?
 #### SQUARE
 Patricio Tamayo
 #### TRIANGLE
-Hector Ibarra
-
 Ernesto Mora
 #### CIRCLE
 Hector Reyes
 #### X
 Manuel Ruiz
-### Communication Protocols
+
 
 ## Database 
 The entity relationship diagram of the dataset can be described as follows: 
 
 <p align="center">
- <img src="![image](https://user-images.githubusercontent.com/88845919/156093526-ef5ccd64-ebf9-4bfa-8300-0b51c9e7680e.png)"/>
+ <img src="https://user-images.githubusercontent.com/21972342/153769706-a98d666f-3b62-407f-8685-d0c4a8df1d84.png"/>
 </p?
 
 - The Application table describes customer information.
@@ -51,28 +49,40 @@ The features to take into account are:
 
 Feature Name	Description	Remarks
 	
-CODE_GENDER:	Gender	
-FLAG_OWN_CAR:	The applicant has a car or not	
-FLAG_OWN_REALTY:	The applicant has a property	
-CNT_CHILDREN:	Number of Children	
-AMT_INCOME_TOTAL:	Annual Income	
-NAME_EDUCATION_TYPE:	Education Level	
-NAME_FAMILY_STATUS:	Marital Status	
-NAME_HOUSING_TYPE:	Way of Living	
-DAYS_BIRTH:	Age in days	
-DAYS_EMPLOYED:	Duration of work in days	
-FLAG_MOBIL:	Is there a mobile phone	
-FLAG_WORK_PHONE:	Is there a work phone	
-FLAG_PHONE:	Is there a phone	
-FLAG_EMAIL:	Is there an email	
-JOB:	Job	
+CODE_GENDER:	Gender
+
+FLAG_OWN_CAR:	The applicant has a car or not
+
+FLAG_OWN_REALTY:	The applicant has a property
+
+CNT_CHILDREN:	Number of Children
+
+AMT_INCOME_TOTAL:	Annual Income
+
+NAME_EDUCATION_TYPE:	Education Level
+
+NAME_FAMILY_STATUS:	Marital Status
+
+NAME_HOUSING_TYPE:	Way of Living
+
+DAYS_BIRTH:	Age in days
+
+DAYS_EMPLOYED:	Duration of work in days
+
+FLAG_MOBIL:	Is there a mobile phone
+
+FLAG_WORK_PHONE:	Is there a work phone
+
+FLAG_PHONE:	Is there a phone
+
+FLAG_EMAIL:	Is there an email
+
+JOB:	Job
+
 BEGIN_MONTHS: Record month	The month of the extracted data is the starting point, backwards, 0 is the current month, -1 is the previous month, and so on
 STATUS	Status	0: 1-29 days past due 1: 30-59 days past due 2: 60-89 days overdue 3: 90-119 days overdue 4: 120-149 days overdue 5: Overdue or bad debts, write-offs for more than 150 days C: paid off that month X: No loan for the month
+
 TARGET:	Target	Risk user are marked as '1', else are '0'
-
-Our label will be:
-
-At leats 2 categories, "good" or "bad" candidate for the credit card. Using Kmeans we can differenciate the applications into one of this two groups. We will determine the natural means that the data set has to find a good relation.
 
 ## Database
 
@@ -83,3 +93,34 @@ Database info:
 - Endpoint and port (link): dbproject.cprghtxfxmsc.us-east-1.rds.amazonaws.com
 
 Password in ignored config.py
+
+## Tools  
+### Creating Database  
+- PostgreSQL  
+- Amazon Web Services (AWS)  
+### Analyzing Data  
+- Pandas  
+### Machine Learning  
+- Scikit-Learn  
+- Tensorflow  
+### Dashboard  
+- Tableau  
+
+
+## Presentation
+The presentation that outlines the project in [Google slides](https://docs.google.com/presentation/d/1Z_A6kwwKbiF3FvnKe_KBhuP6LGJ8C_TPaqjhdFbzavE/edit?usp=sharing)
+
+## Description of the communication protocols  
+### Slack  
+We have our own team channel in Slack, in there we mostly use it to send links, software or other relevant web tools to develop our project.  
+
+### Whatsapp  
+We have a Whatsapp group to have a more direct communication, at any time, not only when we are in a computer.  
+
+### Zoom  
+Excluding our time during class, we get into a Zoom call every Sunday to finish the last steps into our next delivery.  
+
+## Dashboard
+The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysis/CreditCardApporval?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+The dashboard can be visualized better if using a desktop in fullscreen. 
