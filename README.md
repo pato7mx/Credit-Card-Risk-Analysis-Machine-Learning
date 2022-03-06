@@ -159,11 +159,11 @@ The Model was trainned using keras, we used "sigmoid" activation function, with 
 			
 ### Description and explanation of model’s confusion matrix, including final accuracy score 
 
-![image](https://user-images.githubusercontent.com/88845919/156944392-ee358b19-3380-44be-ad44-606c6925db29.png)
+![image](https://user-images.githubusercontent.com/88845919/156946192-919cde21-9561-4a70-8a87-8f135f984b3a.png)
 	
-We can see in the image above, that the accuracy of the model is 95.23%. It's not 100%, but it's high enought.
+We can see in the image above, that the accuracy of the model is 95.87%. We need to be careful on overfitting the data.
 
-About the confusion matrix, it let us know that the model has high sensitivity (0.974) and precision(0.977).
+About the confusion matrix, it let us know that the model has high sensitivity (0.98) and precision(0.977).
 So, the model is sensitive enought to identify high risk applicants.
 
 ### Output of the model
