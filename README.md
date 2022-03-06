@@ -104,7 +104,7 @@ TARGET:	Target	Risk user are marked as '1', else are '0'
 
 For Feature selection
 	
-![image](https://user-images.githubusercontent.com/88845919/156698033-d130fb0b-0c6f-4b4a-ad75-e702cf5e116d.png)
+![image](https://user-images.githubusercontent.com/88845919/156944299-89a20c66-84b3-4c69-bd04-2e26b643e088.png)
 	
 ### Description of how data was split into training and testing sets
 	
@@ -133,32 +133,43 @@ The Model was trainned using keras, we used "relu" activation function, with 2 h
 	
 		# Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 		number_input_features = len(X_train[0])
-		hidden_nodes_layer1 = 10
-		hidden_nodes_layer2 = 5
+		hidden_nodes_layer1 = 50
+		hidden_nodes_layer2 = 20
 
 		nn = tf.keras.models.Sequential()
 
 		# First hidden layer
 		nn.add(
-		    tf.keras.layers.Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation="relu")
+		    tf.keras.layers.Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation="sigmoid")
 		)
 
 
 		# Second hidden layer
-		nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))
+		nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="sigmoid"))
 
 		# Output layer
 		nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 
 		# Check the structure of the model
-		nn.summary()	
-
-![image](https://user-images.githubusercontent.com/88845919/156699167-72ed5e17-f135-4e44-9418-7c96c5daa6df.png)			
+		nn.summary()
+			
+![image](https://user-images.githubusercontent.com/88845919/156944369-95f4c2a0-ec84-4054-a4d0-fb527657f2c5.png)
 			
 ### Description and explanation of model’s confusion matrix, including final accuracy score 
 
-![image](https://user-images.githubusercontent.com/88845919/156699238-0edc9ccf-8812-4e6d-9afa-83f1b7f40a08.png)
+![image](https://user-images.githubusercontent.com/88845919/156944392-ee358b19-3380-44be-ad44-606c6925db29.png)
+	
+We can see in the image above, that the accuracy of the model is 95.23%. It's not 100%, but it's high enought.
 
+About the confusion matrix, it let us know that the model has high sensitivity (0.974) and precision(0.977).
+So, the model is sensitive enought to identify high risk applicants.
+
+### Output of the model
+
+For the input we use the applicant information, to get an output, credit card approval or not. We generate a CSV file with this results.
+	
+![image](https://user-images.githubusercontent.com/88845919/156944727-7b0cc537-f318-4381-b485-20f29cdce154.png)
+	
 ## Database
 
 A database with tables for use in the project was generated in AWS-RDS Server.
