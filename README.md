@@ -125,11 +125,13 @@ Suppervised - Neuronal Networks
 
 We select this model because we have some target. Thats why we used suppervised machine learning. And beacuse we are classifing several features to get a binary result, we select Neuronal Networks.
 	
-Code can be find in the machine learning folder
+Neural networks and deep learning models will often converge on a local minimum. In other words, these models will often focus on a specific trend in the data and could miss the "bigger picture."
+	
+Code can be find in the machine learning folder.
 	
 ### Description of how model was trained (or retrained, if they are using an existing model)
 
-The Model was trainned using keras, we used "relu" activation function, with 2 hidden layers. And "sigmoid" activation function.
+The Model was trainned using keras, we used "sigmoid" activation function, with 2 hidden layers. And "sigmoid" activation function. This is because we want a value of 0 or 1.
 	
 		# Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 		number_input_features = len(X_train[0])
