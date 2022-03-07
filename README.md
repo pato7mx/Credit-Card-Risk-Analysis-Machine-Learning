@@ -209,6 +209,6 @@ We have a Whatsapp group to have a more direct communication, at any time, not o
 Excluding our time during class, we get into a Zoom call every Sunday to finish the last steps into our next delivery.  
 
 ## Dashboard
-The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysis/CreditCardApporval?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysisv2/CreditApprovalDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 The dashboard can be visualized better if using a desktop in fullscreen. 
