@@ -198,16 +198,6 @@ Password in ignored config.py
 ## Presentation
 The presentation that outlines the project in [Google slides](https://docs.google.com/presentation/d/1Z_A6kwwKbiF3FvnKe_KBhuP6LGJ8C_TPaqjhdFbzavE/edit?usp=sharing)
 
-## Description of the communication protocols  
-### Slack  
-We have our own team channel in Slack, in there we mostly use it to send links, software or other relevant web tools to develop our project.  
-
-### Whatsapp  
-We have a Whatsapp group to have a more direct communication, at any time, not only when we are in a computer.  
-
-### Zoom  
-Excluding our time during class, we get into a Zoom call every Sunday to finish the last steps into our next delivery.  
-
 ## Dashboard
 The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysisv2/MachineLearningTest?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
