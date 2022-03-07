@@ -63,7 +63,7 @@ Then identify the data type of the dataframe. Check the kind of information that
 
 ![image](https://user-images.githubusercontent.com/88845919/156697829-d13efc1b-fe13-4a4f-9824-90e38f2c3810.png)
 
-### Description of feature engineering and the feature selection, including the team's decision-making process
+### Description of feature engineering and the feature selection, including the teams decision-making process
 
 The features to take into account are: 
 	
@@ -202,3 +202,42 @@ The presentation that outlines the project in [Google slides](https://docs.googl
 The dashboard can be found in [Tableu Public](https://public.tableau.com/views/CreditCardApprovalAnalysisv2/MachineLearningTest?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 The dashboard can be visualized better if using a desktop in fullscreen. 
+
+We can see that more than 98% of the Credit requests were approved.
+
+![image](https://user-images.githubusercontent.com/21972342/156973062-8a48395e-4172-49ba-b3e9-0573acd39c44.png)
+
+From the applications, there is almost 25% more females requesting for credit than males. 
+
+Additionally, widowed males have a high credit reject ratio (>20%). Widowed females have a 2.12% reject ratio. 
+
+From the data, it seems that there is no disctinction for the number of children involved in the credit approval.
+
+![image](https://user-images.githubusercontent.com/21972342/156973092-78f2339a-9548-4cf2-bf76-c0461c62bfd2.png)
+
+Most of the users requesting credit are Laborers. 
+
+The ones that have the highest risk of rejection are the users who studied up to lower secondary level.
+
+![image](https://user-images.githubusercontent.com/21972342/156973161-92bde16f-a812-4fdc-9966-f32fcc0875a5.png)
+
+Most of the users own a house or an apartment. Those who have a higher risk of rejection are those who live on a municipal apartment or in an office apartment. 
+
+Also, it seems that is mandatory to own a mobile to request a credit, 100% of the applicants own one. 
+
+![image](https://user-images.githubusercontent.com/21972342/156973191-b0dfec1c-7a39-43ea-9117-db97b10b21ee.png)
+
+Analyzing the anual income, users with less than 40K anual income have a higher risk of getting rejected with a 4% credit reject ratio. 
+
+Most of the users applying for a credit card (77.49%) have up to 10 years of employment.
+
+The youngest applicant is 21 years old but the average age of applicants are 40 years old.
+
+![image](https://user-images.githubusercontent.com/21972342/156973233-f43b8771-3458-45c7-837f-c4a573615ecb.png)
+
+Those who had more than 2 months of payment delay in an existing credit have a 100% reject ratio. 
+
+There is a low number of applicants without credit history.  
+
+![image](https://user-images.githubusercontent.com/21972342/156973273-9a1ca1a4-9298-45b1-9267-c3e5f5b36811.png)
+
