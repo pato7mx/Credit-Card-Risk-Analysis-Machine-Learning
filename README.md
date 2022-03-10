@@ -37,6 +37,15 @@ The entity relationship diagram of the dataset can be described as follows:
 - The Application table describes customer information.
 - The HistoricCredit table describes the credit status of a customer for each month since he/she requested the credit.
 
+A database with tables for use in the project was generated in AWS-RDS Server.
+
+Database info:
+- Name: dbproject
+- Endpoint and port (link): dbproject.cprghtxfxmsc.us-east-1.rds.amazonaws.com
+
+Password in ignored config.py
+
+
 ## Machine Learning
 
 ### Description of data preprocessing
@@ -172,16 +181,6 @@ For the input we use the applicant information, to get an output, credit card ap
 	
 ![image](https://user-images.githubusercontent.com/88845919/156944727-7b0cc537-f318-4381-b485-20f29cdce154.png)
 	
-## Database
-
-A database with tables for use in the project was generated in AWS-RDS Server.
-
-Database info:
-- Name: dbproject
-- Endpoint and port (link): dbproject.cprghtxfxmsc.us-east-1.rds.amazonaws.com
-
-Password in ignored config.py
-
 ## Tools  
 ### Creating Database  
 - PostgreSQL  
