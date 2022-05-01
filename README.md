@@ -10,7 +10,7 @@ The dataset we found is ideal to test the exact knowledge we acquired through th
 
 
 ### Description of the source of the data
-We got our data from a Data Science community website named Kaggle. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
+We got our data from a Data Science community website named Kaggle. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges. Among many other data sets in the website, we decided to use this one since, after a review, we found that this one works with our prupose and with what we have been taught in the bootcamp.
 
 ### Question we are going to answer with the data
 Does the user will be able to get a credit card approval based on data?
